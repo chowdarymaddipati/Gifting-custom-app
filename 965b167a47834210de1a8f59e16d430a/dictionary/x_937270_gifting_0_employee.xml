@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fadc16fa47834210de1a8f59e16d4383" extends="sys_user" label="Employee" max_length="40" name="x_937270_gifting_0_employee" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project/Account" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="ABZ Consultancy" sequence="0" value="abz consultancy"/>
+                <element inactive_on_update="false" label="Qwerty Hospitals" sequence="4" value="qwerty hospitals"/>
+                <element inactive_on_update="false" label="YUC Motors" sequence="3" value="yuc motors"/>
+                <element inactive_on_update="false" label="Zone IT Services" sequence="2" value="zone it services"/>
+                <element inactive_on_update="false" label="PTL India Ltd." sequence="1" value="ptl india ltd."/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="E-Wallet Balance" max_length="40" name="u_string_1" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="E-Wallet Budget" max_length="40" name="u_integer_7" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Position Level" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="HR" sequence="7" value="hr"/>
+                <element inactive_on_update="false" label="Senior Manager" sequence="4" value="senior manager"/>
+                <element inactive_on_update="false" label="Manager" sequence="3" value="manager"/>
+                <element inactive_on_update="false" label="Technical Lead" sequence="2" value="technical lead"/>
+                <element inactive_on_update="false" label="Delivery Head" sequence="6" value="delivery head"/>
+                <element inactive_on_update="false" label="Senior Associate" sequence="1" value="senior associate"/>
+                <element inactive_on_update="false" label="Director" sequence="5" value="director"/>
+                <element inactive_on_update="false" label="Associate" sequence="0" value="associate"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="E-Wallet Balance Validity" max_length="40" name="u_glide_date_5" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Awards/Appreciations" max_length="40" name="u_string_6" type="string"/>
+    </element>
+</database>
